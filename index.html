@@ -1,26 +1,233 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="tr">
   <head>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quattrocento&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!--social media icons-->
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="./workintech.svg" />
     <link rel="stylesheet" href="./style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Workintech + 🍕</title>
+    <title>Pizza Projesi</title>
   </head>
 
-  <body>
-    <div id="app">
-      <div>
-        <a href="https://github.com/Workintech/fsweb-s5-bonus-challenge-html-pizza" target="_blank">
-          <img src="./workintech.svg" class="logo" alt="Workintech logo">
-        </a>
-        <h1>Hello Coder!</h1>
-        <p class="read-the-docs">
-          Click on the Workintech logo to see the Readme of the project
-        </p>
+  <body style="background:var(--beige); width: 1920px; height: auto;">
+
+    <section><!--home-banner-->
+      <header class="home-banner">
+        <h1 style="font-family: var(--font3); font-size: 50px; margin-top: 45px;">Teknolojik Yemekler</h1>
+        <p style="font-family: var(--font4); font-size: 32px; color: var(--yellow); margin-top: 15px; margin-bottom: 5px;">fırsatı kaçırma</p>
+        <p style="font-family: var(--font1); font-size: 86px; margin-top: 5px; margin-bottom: 15px; line-height: 92px;">KOD ACIKTIRIR ,<br>PİZZA DOYURUR</p>
+        <button style="font-family: var(--font2); font-size: 18px; width: 193px; height: 56px; background:var(--yellow); color: black;" class="radius1">ACIKTIM</button>
+      </header>
+    </section>
+
+    <section><!--icons-->
+      <nav>
+        <ul class="icons">
+          <li style="display: flex; align-items: center;">
+            <img style="margin-right: 15px;" src="assets/iteration-2/icons/1.svg" alt="icon-1">
+            <a style="text-decoration: none; font-family: var(--font2); font-size: 25px; color: var(--dark-gray);" href="ramen.html">Ramen</a>
+          </li>
+          <li style="display: flex; align-items: center;">
+            <img style="margin-right: 15px;" src="assets/iteration-2/icons/2.svg" alt="icon-2">
+            <a style="text-decoration: none; font-family: var(--font2); font-size: 25px; color: var(--dark-gray);" href="pizza.html">Pizza</a>
+          </li>
+          <li style="display: flex; align-items: center;">
+            <img style="margin-right: 15px;" src="assets/iteration-2/icons/3.svg" alt="icon-3">
+            <a style="text-decoration: none; font-family: var(--font2); font-size: 25px; color: var(--dark-gray);" href="burger.html">Burger</a>
+          </li>
+          <li style="display: flex; align-items: center;">
+            <img style="margin-right: 15px;" src="assets/iteration-2/icons/4.svg" alt="icon-4">
+            <a style="text-decoration: none; font-family: var(--font2); font-size: 25px; color: var(--dark-gray);" href="frenchfries.html">French Fries</a>
+          </li>
+          <li style="display: flex; align-items: center;">
+            <img style="margin-right: 15px;" src="assets/iteration-2/icons/5.svg" alt="icon-5">
+            <a style="text-decoration: none; font-family: var(--font2); font-size: 25px; color: var(--dark-gray);" href="fastfood.html">Fast Food</a>
+          </li>
+          <li style="display: flex; align-items: center;">
+            <img style="margin-right: 15px;" src="assets/iteration-2/icons/6.svg" alt="icon-6">
+            <a style="text-decoration: none; font-family: var(--font2); font-size: 25px; color: var(--dark-gray);" href="softdrinks.html">Soft Drinks</a>
+          </li>
+        </ul>
+      </nav>
+    </section>
+
+    <section><!--cards-->
+      <div class="cards">
+        <div style="background-image: url(assets/iteration-2/cta/kart-1.png); background-size: cover; width: 530px; height: 449px; margin-right: 10px;" class="radius2">
+          <h3 style="font-family: var(--font3); font-size: 68px; line-height: 72px; margin: 45px auto 0px 30px;">Özel<br>Lezzetus</h3>
+          <p style="font-family: var(--font1); font-size: 20px; margin: 10px auto 0px 30px;">Position:Absolute Acı Burger</p>
+          <button style="font-family: var(--font2); font-size: 14px; width: 102px; height: 45px; background: white; color:var(--red); margin: 25px auto 0px 30px;" class="radius1">Sipariş Ver</button>
+        </div> 
+
+        <div style="width: 530px; height: 449px; display:flex; flex-direction: column;">
+          
+          <div style="background-image: url(assets/iteration-2/cta/kart-2.png); background-size: cover; width: 530px; height: 220px; margin-bottom: 10px; display: flex; justify-content: space-between; align-items: center;  " class="radius2">
+            <div>
+              <h3 style="font-family: var(--font3); font-size: 32px; line-height: 44px;  color:white; margin-bottom: 25px; margin-left:25px;">Hackathlon<br>Burger Menü</h3>
+              <button style="font-family: var(--font2); font-size: 14px; width: 102px; height: 45px; background: white; color:var(--red); margin-bottom: 25px; margin-left:25px; " class="radius1">Sipariş Ver</button>
+            </div>
+          </div>
+
+          <div style="background-image: url(assets/iteration-2/cta/kart-3.png); background-size: cover; width: 530px; height: 220px;" class="radius2">
+            <h3 style="font-family: var(--font3); font-size: 32px; line-height: 44px;  color: var(--dark-gray);  margin-bottom: 25px; margin-left:25px;" ><span style="color: var(--red);">Çoooook</span> hızlı<br>npm gibi kurye </h3>
+            <button style="font-family: var(--font2); font-size: 14px; width: 102px; height: 45px; background: white; color:var(--red);margin-bottom: 25px; margin-left:25px;" class="radius1">Sipariş Ver</button>
+          </div>
+          
+        </div>
       </div>
-    </div>
+    </section>
+
+    <section><!--head2-->
+      <header class="head2">
+        <p style="font-family: var(--font4); font-size: 32px; color: var(--red); margin: 0px;">en çok paketlenen menüler</p>
+        <h2 style="font-family: var(--font2); font-size: 42px; color: var(--dark-gray); margin: 0px;">Acıktıran Kodlara Doyuran Lezzetler</h2>
+        <nav style="display: flex; justify-content: space-between; margin-top: 20px;">
+          <button style="background: white; display: flex; align-items: center; padding: 10px;" class="radius2">
+            <img style="margin-right: 10px;" src="assets/iteration-2/icons/1.svg" alt="icon-1">
+            <p style=" font-family: var(--font2); font-size: 22px; color: var(--dark-gray); margin:0px;">Ramen</p>
+          </button>
+          <button style="background: white; display: flex; align-items: center; padding: 10px;" class="radius2">
+            <img style="margin-right: 10px;" src="assets/iteration-2/icons/2.svg" alt="icon-2">
+            <p style=" font-family: var(--font2); font-size: 22px; color: var(--dark-gray); margin:0px;">Pizza</p>
+          </button>
+          <button style="background: white; display: flex; align-items: center; padding: 10px;" class="radius2">
+            <img style="margin-right: 10px;" src="assets/iteration-2/icons/3.svg" alt="icon-3">
+            <p style=" font-family: var(--font2); font-size: 22px; color: var(--dark-gray); margin:0px;">Burger</p>
+          </button>
+          <button style="background: white; display: flex; align-items: center; padding: 10px;" class="radius2">
+            <img style="margin-right: 10px;" src="assets/iteration-2/icons/4.svg" alt="icon-4">
+            <p style=" font-family: var(--font2); font-size: 22px; color: var(--dark-gray); margin:0px;">French Fries</p>
+          </button>
+          <button style="background: white; display: flex; align-items: center; padding: 10px;" class="radius2">
+            <img style="margin-right: 10px;" src="assets/iteration-2/icons/5.svg" alt="icon-5">
+            <p style=" font-family: var(--font2); font-size: 22px; color: var(--dark-gray); margin:0px;">Fast Food</p>
+          </button>
+          <button style="background: white; display: flex; align-items: center; padding: 10px;" class="radius2">
+            <img style="margin-right: 10px;" src="assets/iteration-2/icons/6.svg" alt="icon-6">
+            <p style=" font-family: var(--font2); font-size: 22px; color: var(--dark-gray); margin:0px;">Soft Drinks</p>
+          </button>
+        </nav>
+      </header>
+    </section>
+
+    <section><!--foods-->
+      <nav class="foods">
+
+        <div style="width: 306px; height: 406px; padding: 16px; background: white;" class="radius2">
+          <img style="margin: 6px auto;" src="assets/iteration-2/pictures/food-1.png" alt="food-1">
+          <h3 style="width: fit-content; font-family: var(--font1); font-size: 22px; color: var(--dark-gray); margin: 6px 12px;">Terminal Pizza</h3>
+          <div style="width: 306px; height: 30px; margin: 6px 12px; display: flex; align-items: center;">
+            <p style="width: fit-content; font-family: var(--font2); font-size: 16px; color: var(--dark-gray); margin-right: 155px;">4.9</p>
+            <p style="width: fit-content; font-family: var(--font2); font-size: 16px; color: var(--dark-gray); margin-right: 55px;">(200)</p>
+            <p style="width: fit-content; font-family: var(--font1); font-size: 25px; color: var(--dark-gray);">60₺</p>
+          </div>
+        </div>
+
+        <div style="width: 306px; height: 406px; padding: 16px; background: white;" class="radius2">
+          <img style="margin: 6px auto;" src="assets/iteration-2/pictures/food-2.png" alt="food-2">
+          <h3 style="width: fit-content; font-family: var(--font1); font-size: 22px; color: var(--dark-gray); margin: 6px 12px;">Position Absolute Acı Pizza</h3>
+          <div style="width: 306px; height: 30px; margin: 6px 12px; display: flex; align-items: center;">
+            <p style="width: fit-content; font-family: var(--font2); font-size: 16px; color: var(--dark-gray); margin-right: 155px;">4.2</p>
+            <p style="width: fit-content; font-family: var(--font2); font-size: 16px; color: var(--dark-gray); margin-right: 55px;">(130)</p>
+            <p style="width: fit-content; font-family: var(--font1); font-size: 25px; color: var(--dark-gray);">45₺</p>
+          </div>
+        </div>
+
+        <div style="width: 306px; height: 406px; padding: 16px; background: white;" class="radius2">
+          <img style="margin: 6px auto;" src="assets/iteration-2/pictures/food-3.png" alt="food-3">
+          <h3 style="width: fit-content; font-family: var(--font1); font-size: 22px; color: var(--dark-gray); margin: 6px 12px;">useEffect Tavuklu Burger</h3>
+          <div style="width: 306px; height: 30px; margin: 6px 12px; display: flex; align-items: center;">
+            <p style="width: fit-content; font-family: var(--font2); font-size: 16px; color: var(--dark-gray); margin-right: 155px;">4.7</p>
+            <p style="width: fit-content; font-family: var(--font2); font-size: 16px; color: var(--dark-gray); margin-right: 55px;">(108)</p>
+            <p style="width: fit-content; font-family: var(--font1); font-size: 25px; color: var(--dark-gray);">72₺</p>
+          </div>
+        </div>
+
+      </nav>
+    </section>
+
+    <section><!--footer-->
+      <div style="background: var(--dark-gray); margin-top: 40px; display: flex; flex-direction: column; align-items: center;">
+        <footer style="width:1072px; height:auto; background: var(--dark-gray);" class="footer">
+
+          <address style="display: flexbox; flex-direction: column; justify-content: space-between; padding: 0;">
+
+            <h1 style=" line-height: 50px; margin-bottom: 40px; width:fit-content ;font-family: var(--font3); font-size: 50px; margin-top:15px;">Teknolojik<br>Yemekler</h1>
+            
+            <div style="display: flex; align-items: center; gap: 10px;">
+              <img style="width: auto; height: auto; align-self: flex-start;" src="assets/iteration-2/footer/icons/icon-1.png" alt="footer-icon1">
+              <p style="margin-top: 0px; width: fit-content; font-family: var(--font2);font-size: 18px;">341 Londonderry Road,<br>Istanbul Türkiye</p>
+            </div>
+
+            <div style="display: flex; align-items: center; gap: 10px;">
+              <img style="width: auto; height: auto; align-self: flex-start;" src="assets/iteration-2/footer/icons/icon-2.png" alt="footer-icon2">
+              <p style=" margin-top: 0px; width: fit-content; font-family: var(--font2);font-size: 18px; ">aciktim@teknolojikyemekler.com</p>
+            </div>
+
+            <div style="display: flex; align-items: center; gap: 10px;">
+              <img style="width: auto; height: auto; align-self: flex-start;" src="assets/iteration-2/footer/icons/icon-3.png" alt="footer-icon3">
+              <p style=" margin-top: 0px; width: fit-content; font-family: var(--font2);font-size: 18px;">+90 216 123 45 67</p>
+            </div>
+
+          </address>
+
+          <div style="display: flexbox; flex-direction: column; justify-content: space-between; align-self: end;">
+
+            <h3 style="margin-top: 80px; margin-bottom: 20px; width:fit-content ;font-family: var(--font2); font-size: 24px;">Hot Menü</h3>
+            <p style=" line-height: 42px; margin-bottom: 0px; width: fit-content; font-family: var(--font2);font-size: 18px;">Terminal Pizza<br>useEffect Tavuklu Pizza<br>Beyaz  Console Frosty<br>Testler Geçti Mutlu Burger<br>Position Absolute Acı Burger</p>
+
+          </div>
+
+          <div style=" display: flexbox; flex-direction: column; justify-content: space-between; align-self: end;">
+
+            <h3 style="margin-bottom: 30px; width:fit-content ;font-family: var(--font2); font-size: 24px;">Instagram</h3>
+            
+            <ul style="padding: 0px; display: flex; justify-content: space-between; margin-left: 0px; margin-bottom: 0px; max-width: 360px; list-style-type: none; flex-wrap: wrap;">
+
+              <li>
+                <img src="assets/iteration-2/footer/insta/li-0.png" alt="li-0">
+              </li>
+
+              <li>
+                <img src="assets/iteration-2/footer/insta/li-1.png" alt="li-1">  
+              </li>
+
+              <li>
+                <img src="assets/iteration-2/footer/insta/li-2.png" alt="li-2">
+              </li>
+
+              <li>
+                <img src="assets/iteration-2/footer/insta/li-3.png" alt="li-3">
+              </li>
+
+              <li>
+                <img src="assets/iteration-2/footer/insta/li-4.png" alt="li-4">
+              </li>
+
+              <li>
+                <img src="assets/iteration-2/footer/insta/li-5.png" alt="li-5">
+              </li>
+
+            </ul>
+
+          </div>
+
+        </footer>
+
+        <div style="width: 1920px; border: 0.5px  solid gray;"></div>
+
+        <div style="width: 1072px; margin-top:0; display: flex; justify-content: space-between; align-items: center;">
+          <p style="margin-bottom: 20px;">© 2023 Teknolojik Yemekler.</p>
+          <a style="text-decoration: none; color: white;" href="#" class="fa fa-twitter"></a>
+        </div>
+
+      </div>
+    </section>
+
   </body>
 
 </html>
